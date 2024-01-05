@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Daily Routines Reminder</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Routines Reminder</h1>
+        <div id="routine-form">
+            <label for="routine">Routine:</label>
+            <input type="text" id="routine" placeholder="Enter routine...">
+            <label for="deadline">Deadline:</label>
+            <input type="datetime-local" id="deadline">
+            <button onclick="addRoutine()">Add Routine</button>
+        </div>
+        <ul id="routine-list"></ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
